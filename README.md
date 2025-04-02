@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6fFVVHyL)
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18980849)
 # GitHub and Python Foundations Assignment
 
 ## Overview
@@ -48,10 +50,9 @@ This assignment will help you practice:
 
 ### Part 1: Update this README.md
 Replace the "Part 1" section with:
-- A brief introduction about yourself (first name only)
-- What you're hoping to get out of this course
-- Topics you would like to see included
-- A musical recommendation and a link to something about it (song, album, artist)
+- My name is Horace.
+- I'm hoping to get more experience in Python and see how it can be applied to data science in ways that other languages may not be able to handle as effectively. The MiHDaS program is my first real exposure to data science, so I think I likely am only scratching the surface of how coding can be used not only in data science, but also in my everyday life, and I would like to learn more.
+- Recently I've been listening most to a K-Pop group STAYC, in particular one of their recent releases ["BEBE"](https://youtu.be/z-xfGoabprU?si=y08EzJi1liA0-NO9). Their songs vary in vibes, but they're all generally very bright and catchy.
 
 ### Part 2: Complete the email_hasher.py Script
 The email_hasher.py script should:
