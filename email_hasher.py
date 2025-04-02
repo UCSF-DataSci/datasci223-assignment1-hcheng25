@@ -24,6 +24,8 @@ def hash_email(email):
     # 3. Return the hash in hexadecimal format
 
 def write_hash_to_file(hash_value, filename="hash.email"):
+    with open(filename, 'wt') as fout:
+        print(hash_value, file=fout)
     print(hash_value)
     # 1. Open the file in write mode
     # 2. Write the hash value to the file
