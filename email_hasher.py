@@ -32,7 +32,7 @@ def write_hash_to_file(hash_value, filename="hash.email"):
 
 def main():
     email = sys.argv[1]
-    if re.fullmatch(pattern='\w{1,}@\w{1,}\\.com', string=email):
+    if re.fullmatch(pattern='.{1,}@\w{1,}\.\w{1,}', string=email):
         hash = hash_email(email)
         write_hash_to_file(hash_value=hash, filename='hash.email')
     else:
