@@ -32,11 +32,11 @@ def write_hash_to_file(hash_value, filename="hash.email"):
 
 def main():
     email = sys.argv[1]
-    if re.fullmatch(pattern='.{1,}@\w{1,}\.\w{1,}', string=email):
+    try:
         hash = hash_email(email)
         write_hash_to_file(hash_value=hash, filename='hash.email')
-    else:
-        exit('Argument is not a valid email address')
+    except:
+        exit('Argument is not valid')
     # 1. Check if an email address was provided as a command line argument
     # 2. If not, print an error message and exit with a non-zero status
     # 3. If yes, hash the email address
