@@ -36,8 +36,7 @@ def main():
         hash = hash_email(email)
         write_hash_to_file(hash_value=hash, filename='hash.email')
     else:
-        print('Error: argument is not a valid email address')
-        exit(1)
+        exit('Argument is not a valid email address')
     # 1. Check if an email address was provided as a command line argument
     # 2. If not, print an error message and exit with a non-zero status
     # 3. If yes, hash the email address
